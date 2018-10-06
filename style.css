@@ -52,11 +52,18 @@ article div h2 p button{
   float: left; 
   padding: 30px;
   margin: 30px;
+  width: 450px;
 } 
 
 article img{ 
   float: left; 
 } 
+
+button {
+  background-color: black;
+  color: white;
+  padding: 5px 15px 5px 15px;
+}
 
 footer {
   background-color: #444;
