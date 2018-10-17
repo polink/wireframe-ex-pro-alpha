@@ -34,30 +34,45 @@ nav li{
 }
 
 main {
-  width: 1000px;
+  width: 960px;
   margin: auto;
-  padding: 30px 0;
+  /* padding: 30px 0; */
 }
 main > img {
   margin-bottom: 29px;
+  margin-top: 30px;
 }
 
 main li{
-  position: relative;
-  padding: 0 30px 30px 0; 
+  /* position: relative; */
+  /* padding: 0 30px 30px 0;  */
+  margin-right: 24px;
   display: inline-block;
+  text-align: center;
 }
 
-article div h2 p button{ 
+main li:nth-child(3){
+  margin: 0;
+}
+
+/* article div h2 p button{ 
   float: left; 
   padding: 30px;
   margin: 30px;
   width: 450px;
-} 
+}  */
+
+article{
+  height: 420px;
+  width: 960;
+  margin-top: 30px;
+}
 
 article img{ 
-  float: left; 
+  margin-right: 18px; 
 } 
+
+
 
 button {
   background-color: black;
